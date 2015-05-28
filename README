@@ -1,0 +1,49 @@
+APLICATION DESCRIPTION
+
+Web application that shows a list with the last videos published in a CNN podcast.
+
+REQUERIMENTS
+
+Apache PHP server.
+
+Web browser: Firefox 5+, Chrome, IE 9+ with javascript enabled.
+
+HOW TO INSTALL
+
+In a public directory, in apache, deploy the files included in the zip file.
+
+Zip file should contain the next files and directories:
+
+test
+test/css
+test/css/app.css
+test/css/bootstrap-theme.min.css
+test/css/bootstrap.min.css
+test/fonts
+test/fonts/glyphicons-halflings-regular.eot
+test/fonts/glyphicons-halflings-regular.svg
+test/fonts/glyphicons-halflings-regular.ttf
+test/fonts/glyphicons-halflings-regular.woff
+test/fonts/glyphicons-halflings-regular.woff2
+test/img
+test/img/cnn.jpg
+test/js
+test/js/app.js
+test/js/bootstrap.min.js
+test/js/jquery-1.11.13.min.js
+test/js/moment.min.js
+test/README
+test/index.html
+test/proxy.php
+
+HOW TO USE
+
+Access to the index.html through a web browser. The app should load a list with the last videos
+published in a CNN podcast (CNN Student News is used, but can be used any podcast with the same
+structure).
+
+Once the web application is loaded, navigate through the video list using UP ARROW and DOWN ARROW.
+Select a video using the ENTER key, then the video loads in the video player, showing duration and 
+description.
+To play the video, use SPACE key. The SPACE key is used to puase video too. 
+To increase the video volume use RIGHT ARROW, to decrease the video volume use LEFT ARROW.

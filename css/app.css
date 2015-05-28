@@ -1,0 +1,55 @@
+.jumbotron {
+    padding: 15px 0px;
+}
+
+.jumbotron .container {
+    max-width: 100%;
+}
+
+.arrow-container {
+	display:block;
+	width:15px;
+	margin:0 auto;
+}
+
+#video-podcast {
+	width: 748px;
+	height: 419px;
+}
+
+.list-group-item.disabled {
+    cursor: default !important;
+}
+
+#video-container {
+	width: 640px;
+	height: 365px;
+	position: relative;
+}
+
+ul.controls {
+    list-style: outside none none;
+    overflow: hidden;
+    padding: 10px 17em;
+}
+
+ul.controls, li.control-item {
+    float:left;
+}
+
+li.play_pause {
+    width: 27px;
+}
+
+.control {
+    color: #F00;
+}
+
+li.time {
+    text-align: center;
+    width: 172px;
+}
+
+li.volume {
+    width: 73px;
+}
